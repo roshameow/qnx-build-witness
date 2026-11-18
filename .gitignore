@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Generated evidence and local runs
+/evidence/
+/qbw-evidence/
+*.log
+
+# Local/private material; never publish credentials or real setup logs
+/.private/
+/docs/private/
+/docs/*.local.md
+.env
+.env.*
+
+# OS/build output
+.DS_Store
+/build/
+/build-*/
